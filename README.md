@@ -4,11 +4,11 @@
 ### Introduction
 Location-specific Dish Discovery is a user-friendly platform designed to help people discover the best restaurants in Bangalore based on their location and the specific dish they desire. It serves as a one-stop solution for locals and tourists, providing personalized recommendations and detailed information about each restaurant.
 
-![Image Description](images/Banglor.jpg "Banglor")
+![Image Description](images/Banglor.jpg "Bangalore")
 Bangalore, known as the "Silicon Valley of India," is the perfect city to launch such an API. With its vibrant food culture, diverse population, and numerous eateries, Bangalore attracts millions of visitors each year. This makes it an ideal testing ground for Location-specific Dish Discovery.
 
-![Image Description](images/geographic.png "Image Title")
-The primary goal of this API is to make it effortless for users to explore Bangalore's culinary landscape. With just a few clicks, users can input their location and desired dish, whether it's aromatic biryani, crispy dosas, or delectable street food. The API utilizes advanced algorithms and real-time data to provide a curated list of the best restaurants in the specified area, ensuring a delightful gastronomic experience for all.
+![Image Description](images/geographic.png "geographic")
+Here, we can see the geographical locations of different restaurants in the city of Bangalore. Hence, the primary goal of this API is to make it effortless for users to explore Bangalore's culinary landscape. With just a few clicks, users can input their location and desired dish, whether it's aromatic biryani, crispy dosas, or delectable street food. The API utilizes advanced algorithms and real-time data to provide a curated list of the best restaurants in the specified area, ensuring a delightful gastronomic experience for all.
 
 ### Project Structure and Content
 
@@ -21,21 +21,21 @@ The primary goal of this API is to make it effortless for users to explore Banga
 6. The cleaned dataset was saved as a CSV file.
 #### EDA
 1. Visual representation was used to analyze the number of different restaurants in Bangalore.
-![Image Description](images/EDA1.png "Image Title")
+![Image Description](images/EDA1.png "Top 20")
 
 2. The top 50 popular restaurants in Bangalore were determined based on their ratings.
-![Image Description](images/EDA2.png "Image Title")
+![Image Description](images/EDA2.png "Top 50")
 
 3. The total number of restaurants available in each neighborhood was calculated.
-![Image Description](images/EDA3.png "Image Title")
+![Image Description](images/EDA3.png "neighborhood")
 
 4. Latitude and longitude coordinates were extracted from the location column using the geopy.geocoders library.
 
 5. A correlation matrix was created to better understand the relationships between useful features.
-![Image Description](images/EDA4.png "Image Title")
+![Image Description](images/EDA4.png "correlation")
 
 6. Learn about top 20 ranked restaurants and it's location.
-![Image Description](images/EDA5.png "Image Title")
+![Image Description](images/EDA5.png "Top 20 ranked")
 
 #### Feature Selection
 1. The reviews_list and menu_item columns, initially read as strings, were converted to lists using the ast.literal_eval function.
@@ -141,7 +141,7 @@ else:
 Output: ```Top restaurants for roast chicken in Bannerghatta Road: [{'address': '77/A, 4th Floor Floor, Jyoti Nivas College Road, Koramangala 5th Block, Bangalore', 'name': 'Crawl Street'}, {'address': '448, 4th Floor, Big Bazaar Building, SRK Towers, Bannerghatta Road, Bangalore', 'name': 'The Yellow Submarine'}, {'address': '118, Koramangala Industrial Area, Koramangala 7th Block, Bangalore', 'name': 'Koramangala Social'}]```
 
 You can also use Postman to send requests to the API.
-![Image Description](images/postman.png "Image Title")
+![Image Description](images/postman.png "postman")
 
 Feel free to explore the Location-specific Dish Discovery API and discover the top restaurants in Bangalore based on your desired dish and location!
 
