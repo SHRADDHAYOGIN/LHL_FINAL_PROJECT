@@ -37,6 +37,9 @@ Here, we can see the geographical locations of different restaurants in the city
 6. Learn about top 20 ranked restaurants and it's location.
 ![Image Description](images/EDA5.png "Top 20 ranked")
 
+7. The top 50 lacations in Bangalore were determined based on their average ratings.
+![Image Description](images/EDA6.png "Top 50 rated")
+
 #### Feature Selection
 1. The reviews_list and menu_item columns, initially read as strings, were converted to lists using the ast.literal_eval function.
 ```import ast
