@@ -116,7 +116,7 @@ df = df.sort_values('rank')
 4. The if __name__ == '__main__': block starts the Flask application on host 0.0.0.0 and port 8080 when the script is run directly.
 
 #### Deploy on AWS
-The API has been deployed on an AWS instance and is accessible at the following link: [Location-specific Dish Discovery API](http://18.191.195.203:8080/api/top_restaurants?)
+The API has been deployed on an AWS instance and is accessible at the following link: [Location-specific Dish Discovery API](http://18.191.195.203:8080/api/top_restaurants?dish_name=idli&location=Whitefield)
 
 Here's an example of how to send a request and receive a response:
 ```
